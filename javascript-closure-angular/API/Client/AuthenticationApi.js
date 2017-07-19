@@ -124,7 +124,7 @@ API.Client.AuthenticationApi.prototype.logout = function(opt_extraHttpRequestPar
   var headerParams = angular.extend({}, this.defaultHeaders_);
   /** @type {!Object} */
   var httpRequestParams = {
-    method: 'GET',
+    method: 'POST',
     url: path,
     json: true,
             params: queryParameters,
